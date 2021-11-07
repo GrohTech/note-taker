@@ -3,6 +3,8 @@
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
+const path = require('path');
+const fs = require('fs');
 
 // Port
 const PORT = process.env.PORT || 3001;
@@ -18,7 +20,6 @@ app.use(express.static('public'));
 // Routes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
-
 
 // Set up server listening
 app.listen(PORT, () => {

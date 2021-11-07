@@ -1,6 +1,20 @@
-const notes = require('./data/db.json');
+// Dependencies
+const router = require('express').Router();
+const { db } = require('../../data/db.json');
 
-// Come back to this part
-app.get('/api/notes', (req, res) => {
-    res.json(notes);
-})
+// Retrieve existing notes from server and display on client
+router.get('/notes', (req, res) => {
+    return res.json(notes);
+
+});
+
+// Listens for new notes on client and then sends those notes to the server
+router.post('/notes', (req, res) => {
+    req.body.id = notes
+}); 
+
+
+
+
+
+module.exports = router;
