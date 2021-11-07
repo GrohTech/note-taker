@@ -1,7 +1,8 @@
 
 // Dependencies
 const express = require('express');
-const notes = require("./data/db.json");
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 // Port
 const PORT = process.env.PORT || 3001;
@@ -12,17 +13,11 @@ const app = express();
 // Lets Express app handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(express.static('public'));
 
 // Routes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
-
-
-
-// Come back to this part
-app.get('/api/notes', (req, res) => {
-    res.json(notes);
-})
 
 
 // Set up server listening
