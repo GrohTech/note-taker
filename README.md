@@ -7,3 +7,6 @@ https://youtu.be/MxfxiR8TVNU
 Anson the Developer https://youtu.be/1cjdlfB11Ss
 
 DEV https://dev.to/gathoni/express-req-params-req-query-and-req-body-4lpc
+
+Stack Overflow
+https://stackoverflow.com/questions/17604866/difference-between-readfile-and-readfilesync
