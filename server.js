@@ -3,8 +3,6 @@
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes/index.js');
 const htmlRoutes = require('./routes/htmlRoutes/index.js');
-const path = require('path');
-const fs = require('fs');
 
 // Port
 const PORT = process.env.PORT || 3001;
