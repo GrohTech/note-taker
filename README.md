@@ -28,7 +28,7 @@ Clone repository and use npm install command in terminal. Then initiate app by t
 3. Enter description in "Note Text"
 4. Click floppy disk save icon to log note
 
-[App Demo Video](https://watch.screencastify.com/v/CFt3U2D1eMNp9MbqtOZv)
+[App Demo Video](https://watch.screencastify.com/v/k4D8C9sYQhUtMQRhkq3R)
 
 ## Languages & Tools
 
