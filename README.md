@@ -12,7 +12,9 @@ When initiated, this app presents the user with a clean, simple note taking tool
 * [Credits](#credits)
 * [Questions](#questions)
 
-![Team profile generator Screenshot](screenshot.JPG "Screenshot")
+![Note Taker screenshot-1](./public/assets/images/screenshot-1.png "screenshot-1")
+![Note Taker screenshot-2](./public/assets/images/screenshot-2.png "screenshot-2")
+![Note Taker screenshot-3](./public/assets/images/screenshot-3.png "screenshot-3")
   
 ## Installation
 
