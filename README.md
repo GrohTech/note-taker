@@ -8,7 +8,7 @@ When initiated, this app presents the user with a clean, simple note taking tool
 ## Table of Contents 
 * [Installation](#installation)
 * [Instructions](#instructions)
-* [Languages & Tools](#languages-tools)
+* [Technologies](#Technologies)
 * [Credits](#credits)
 * [Questions](#questions)
 
@@ -28,9 +28,10 @@ Clone repository and use npm install command in terminal. Then initiate app by t
 3. Enter description in "Note Text"
 4. Click floppy disk save icon to log note
 
-[App Demo Video](https://watch.screencastify.com/v/k4D8C9sYQhUtMQRhkq3R)
+* [Heroku Deployed App](https://hidden-savannah-20151.herokuapp.com/)
+* [App Demo Video](https://watch.screencastify.com/v/k4D8C9sYQhUtMQRhkq3R)
 
-## Languages & Tools
+## Technologies
 
 * JavaScript
 * Node.js
